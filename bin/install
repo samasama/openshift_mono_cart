@@ -1,0 +1,5 @@
+#!/bin/bash -e
+mkdir ~/.mono
+chmod u+rw ~/.mono
+
+
