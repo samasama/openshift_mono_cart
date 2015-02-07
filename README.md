@@ -6,7 +6,7 @@ Getting Started with OpenShift and Mono
 ---
 
 ####You will need:
-  - VisualStudio[1]
+  - [VisualStudio][1]
   - [GIT][2]
   - [OpenShift account][3]
 
