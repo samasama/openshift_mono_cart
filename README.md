@@ -17,7 +17,7 @@ Paste https://raw.github.com/samasama/openshift_mono_cart/master/metadata/manife
 Give a name to your application, we will be using "mono" as the name through out rest of this.
 Once you have chosen a name click "Create Application" at the bottom.
 
-After it has finished he creation process use git to clone the repo created.
+After it has finished the creation process use git to clone the repo created.
 Open the cloned solution using VisualStudio and start development.
 Commit your changes using git to reflect on you application.
 
