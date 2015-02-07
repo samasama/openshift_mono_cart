@@ -6,7 +6,7 @@ Getting Started with OpenShift and Mono
 ---
 
 ####You will need:
-  - [MonoDevelop 4][1]
+  - VisualStudio[1]
   - [GIT][2]
   - [OpenShift account][3]
 
@@ -17,21 +17,10 @@ Paste https://raw.github.com/samasama/openshift_mono_cart/master/metadata/manife
 Give a name to your application, we will be using "mono" as the name through out rest of this.
 Once you have chosen a name click "Create Application" at the bottom.
 
-After it has finished he creation process go ahead and start up MonoDevelop.
+After it has finished he creation process use git to clone the repo created.
+Open the cloned solution using VisualStudio and start development.
+Commit your changes using git to reflect on you application.
 
-Insite MonoDevelop click on the menu item labeled "Version Control" then click on "Checkout"
-Under the "Type" drop down box choose "Git".
-
-Paste your git url you got at the end of the application creation wizard into the Url:// text box. 
-Chose a directory that does not exist for the "Target directory". Click on "OK". If you have git properly set up and your ssh key added to your OpenShift account you should see "Solution checked out".
-
-Once that has finished click on "File" then "Open". Navigate to where you checked out your code and open OpenShift.csproj(Feel free to rename this.)
-
-You should now be able to press F8 (Windows/Linux) or CMD+B (OS X) to build the solution. Congratulations you are now ready to create your website! 
-
-To push your changes up to OpenShift click on "Version Control" and click on "Commit Solution"
-Write a short commit message and press "Commit". Click back on "Version Control" and press "Push Changes" then click the button labeled "Push Changes". After a bit your new site will be up.
-
-[1]: http://www.monodevelop.com/
+[1]: http://www.visualstudio.com/
 [2]: http://git-scm.com/
 [3]: http://www.openshift.com/
